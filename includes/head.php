@@ -8,11 +8,11 @@
 
 <meta name="google-site-verification" content="" />
 
-<link rel="apple-touch-icon" href="" />
-<link rel="icon" type="image/x-icon" href="" />
+<link rel="apple-touch-icon" href="/">
+<link rel="icon" type="image/x-icon" href="/">
 
-<link rel="canonical" href="/" />
-<link rel="index" title="Accueil du site" href="/" />
+<link rel="canonical" href="/">
+<link rel="index" title="Accueil du site" href="/">
 
 <link href="http://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet" type="text/css" />
 <link href="stylesheets/fonts/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />

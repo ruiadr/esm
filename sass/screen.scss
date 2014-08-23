@@ -346,6 +346,7 @@ body > footer {
         height: 150px;
         position: relative;
         width: 100%;
+        > h2 {display: none;}
         span.trame {
             background-color: rgba(255, 255, 255, 0.5);
             display: block;

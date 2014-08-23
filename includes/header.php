@@ -3,7 +3,7 @@
         <div class="container">
             <h1>
                 <a href="/" title="E.S.M. Télécom, Construction de réseaux électriques et de télécommunications">
-                    <img src="images/logo.png" alt"E.S.M. Télécom, Construction de réseaux électriques et de télécommunications" />
+                    <img src="images/logo.png" alt="E.S.M. Télécom, Construction de réseaux électriques et de télécommunications" />
                 </a>
             </h1>
             <nav>

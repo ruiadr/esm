@@ -1,5 +1,6 @@
 <footer>
     <section class="top">
+        <h2>E.S.M. Télécom</h2>
         <a href="/" title="E.S.M. Télécom, Construction de réseaux électriques et de télécommunications">
           <img src="./images/logo.png" alt="E.S.M. Télécom, Construction de réseaux électriques et de télécommunications" />
         </a>

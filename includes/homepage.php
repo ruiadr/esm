@@ -4,6 +4,7 @@
             <h1>E.S.M. Télécom, Construction de réseaux électriques et de télécommunications</h1>
         </header>
         <section class="rich">
+            <h2>Présentation</h2>
             <p>Créée en Novembre 2013, la société ESM Télécom est principalement une entreprise sous-traitante.</p>
             <p>
                 Elle a su trouver sa place sur le marché des réseaux de télécommunication dans la région PACA et plus particulièrement sur l'air Toulonnaise.

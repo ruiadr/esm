@@ -558,13 +558,17 @@ body > footer section.top {
   width: 100%;
 }
 /* line 349, ../sass/screen.scss */
+body > footer section.top > h2 {
+  display: none;
+}
+/* line 350, ../sass/screen.scss */
 body > footer section.top span.trame {
   background-color: rgba(255, 255, 255, 0.5);
   display: block;
   height: 100%;
   width: 100%;
 }
-/* line 355, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 body > footer section.top a {
   display: block;
   left: 50%;
@@ -574,17 +578,17 @@ body > footer section.top a {
   top: 50%;
   z-index: 100;
 }
-/* line 363, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 body > footer section.top a img {
   display: block;
 }
-/* line 366, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 body > footer section.bottom {
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
 }
-/* line 370, ../sass/screen.scss */
+/* line 371, ../sass/screen.scss */
 body > footer section.bottom h2 {
   color: #a6a6a6;
   font-size: 1.6em;
@@ -593,19 +597,19 @@ body > footer section.bottom h2 {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 378, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 body > footer section.bottom li {
   color: black;
   font-size: 1.3em;
   font-weight: 300;
   line-height: 1.3em;
 }
-/* line 383, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 body > footer section.bottom li a {
   color: #0661a6;
   text-decoration: underline;
 }
-/* line 386, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 body > footer section.bottom li a:hover {
   text-decoration: none;
 }
