@@ -22,7 +22,7 @@ class PageFactory {
         $this->is_error = false;
         
         if (!file_exists ('.' . DS . 'pages' . DS . HOME_PAGE)) {
-           throw new Exception ("La page d'accueil n'existe pas.");
+            throw new Exception ("La page d'accueil n'existe pas.");
         } else if (!file_exists ('.' . DS . 'pages' . DS . ERROR_PAGE)) {
             throw new Exception ("La page d'erreur n'existe pas.");
         }
