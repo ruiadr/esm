@@ -1,0 +1,6 @@
+
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteRule ^(stylesheets|images|javascripts?)/.* - [L]
+RewriteRule .* index.php

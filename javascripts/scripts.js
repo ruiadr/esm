@@ -13,7 +13,7 @@
             delay                     : 3000
         };
         params = $.extend (def, params);
-
+        
         var container       = $(this),
             containerParent = container.parent (),
             elements        = container.children (),
@@ -21,9 +21,9 @@
             pagination      = [],
             interval        = null,
             currentIndex    = 0;
-
+        
         if (elementsLength == 0) return;
-
+        
         var goto = function (index) {
             if (index === currentIndex) return;
             var curElem = $(elements.get (currentIndex)),
@@ -34,7 +34,7 @@
             params.onActivate (pagination[index], index, newElem);
             currentIndex = index;
         }; // goto ();
-
+        
         var createElementPagination = function (parent, index) {
             var e = $('<span>');
             e.on ('click', function (e) {
@@ -50,7 +50,7 @@
             params.onCreateElementPagination (e, index);
             return e;
         } // createElementPagination ();
-
+        
         var createPagination = function () {
             var p = $('<span>').addClass (params.paginationClass);
             params.onCreatePaginationBefore (p);
@@ -64,7 +64,7 @@
             containerParent.append (p);
             params.onCreatePaginationAfter (p);
         }; // createPagination ();
-
+        
         if (elementsLength > 1) {
             createPagination ();
             var nextElement = null;

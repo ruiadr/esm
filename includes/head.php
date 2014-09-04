@@ -1,18 +1,24 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
-<title>E.S.M. Télécom, Construction de réseaux électriques et de télécommunications</title>
-<meta name="description" content="E.S.M. Télécom, Construction de réseaux électriques et de télécommunications" />
-<meta name="keywords" content="" />
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<meta name="google-site-verification" content="" />
+<title><?php echo $page->getMeta ()->title;?></title>
+<meta name="description" content="<?php echo $page->getMeta ()->description;?>" />
+<meta name="keywords" content="<?php echo $page->getMeta ()->keywords;?>" />
 
-<link rel="apple-touch-icon" href="/">
-<link rel="icon" type="image/x-icon" href="/">
+<?php if (!$pagefactory->getIsError ()):?>
+  <link rel="canonical" href="<?php echo $page->getURL ();?>" />
+<?php else:?>
+  <meta name="robots" content="noindex" />
+<?php endif;?>
 
-<link rel="canonical" href="/">
-<link rel="index" title="Accueil du site" href="/">
+<?php if (($homemodel = Helper::getPageModel ('/')) !== null):?>
+  <link rel="index" title="<?php echo $homemodel->getMeta ()->title;?>" href="<?php echo $homemodel->getURL ();?>" />
+<?php endif;?>
+<?php unset ($homemodel);?>
+
+<link rel="apple-touch-icon" href="/" />
+<link rel="icon" type="image/x-icon" href="/" />
 
 <link href="http://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet" type="text/css" />
 <link href="stylesheets/fonts/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
