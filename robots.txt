@@ -1,1 +1,4 @@
+
 User-agent: *
+
+Sitemap: http://www.esm-telecom.com/sitemap.xml

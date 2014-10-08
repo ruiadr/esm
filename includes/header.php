@@ -2,8 +2,8 @@
     <section class="main">
         <div class="container">
             <h1>
-                <a href="/" title="E.S.M. Télécom, Construction de télécommunications">
-                    <img src="images/logo.png" alt="E.S.M. Télécom, Construction de télécommunications" />
+                <a href="/" title="E.S.M. Télécom, Construction de réseaux de télécommunications">
+                    <img src="images/logo.png" alt="E.S.M. Télécom, Construction de réseaux de télécommunications" />
                 </a>
             </h1>
             <?php /*
@@ -11,7 +11,7 @@
                 <h2>Menu principal</h2>
                 <ol>
                     <li class="home">
-                        <a href="/" title="E.S.M. Télécom, Construction de réseaux électriques et de télécommunications">
+                        <a href="/" title="E.S.M. Télécom, Construction de réseaux de télécommunications">
                             <strong>Accueil</strong>
                             <span class="icon-home"></span>
                         </a>

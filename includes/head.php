@@ -17,10 +17,7 @@
 <?php endif;?>
 <?php unset ($homemodel);?>
 
-<?php /*
-<link rel="apple-touch-icon" href="/" />
-<link rel="icon" type="image/x-icon" href="/" />
-*/ ?>
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
 
 <meta name="google-site-verification" content="KbMvARV-NPa7QQgMR_ePdQ" />
 

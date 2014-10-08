@@ -4,6 +4,8 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^esm\-telecom\.com$ [NC]
 RewriteRule ^(.*)$ http://www.esm-telecom.com/$1 [R=301,L]
 
+RewriteRule ^robots\.txt - [L]
+RewriteRule ^sitemap\.xml - [L]
+RewriteRule ^favicon\.ico - [L]
 RewriteRule ^(stylesheets|images|javascripts?)/.* - [L]
 RewriteRule .* index.php
-
