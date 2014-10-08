@@ -1,6 +1,9 @@
 
-DirectoryIndex index.php
-
 RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^esm\-telecom\.com$ [NC]
+RewriteRule ^(.*)$ http://www.esm-telecom.com/$1 [R=301,L]
+
 RewriteRule ^(stylesheets|images|javascripts?)/.* - [L]
 RewriteRule .* index.php
+
