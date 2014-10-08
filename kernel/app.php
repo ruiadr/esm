@@ -17,8 +17,6 @@ require_once 'kernel/pagemodel.php';
 require_once 'kernel/helper.php';
 require_once 'kernel/pagefactory.php';
 
-$pagefactory = null;
-$page = null;
 try {
     $pagefactory = PageFactory::getInstance ();
     $page = $pagefactory->getPageModel ();

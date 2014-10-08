@@ -17,8 +17,14 @@
 <?php endif;?>
 <?php unset ($homemodel);?>
 
+<?php /*
 <link rel="apple-touch-icon" href="/" />
 <link rel="icon" type="image/x-icon" href="/" />
+*/ ?>
+
+<meta name="google-site-verification" content="KbMvARV-NPa7QQgMR_ePdQ" />
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
 <link href="http://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet" type="text/css" />
 <link href="stylesheets/fonts/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />

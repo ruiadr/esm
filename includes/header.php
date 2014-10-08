@@ -2,10 +2,11 @@
     <section class="main">
         <div class="container">
             <h1>
-                <a href="/" title="E.S.M. Télécom, Construction de réseaux électriques et de télécommunications">
-                    <img src="images/logo.png" alt="E.S.M. Télécom, Construction de réseaux électriques et de télécommunications" />
+                <a href="/" title="E.S.M. Télécom, Construction de télécommunications">
+                    <img src="images/logo.png" alt="E.S.M. Télécom, Construction de télécommunications" />
                 </a>
             </h1>
+            <?php /*
             <nav>
                 <h2>Menu principal</h2>
                 <ol>
@@ -23,9 +24,11 @@
                     </li>
                 </ol>
             </nav>
+            */ ?>
             <span class="clear"></span>
         </div>
     </section>
+    <?php /*
     <?php if ($page->getIsHome ()):?>
     <section class="carousel">
         <div id="carousel">
@@ -71,4 +74,5 @@
         </div>
     </section>
     <?php endif;?>
+    */ ?>
 </header>

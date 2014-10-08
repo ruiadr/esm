@@ -287,7 +287,7 @@ header {
 article {
     @include box-shadow(rgba($color-grey2, 0.5) 0 0 5px);
     background-color: $color-white;
-    padding: 30px $padding-px;
+    padding: 80px $padding-px;
     header {
         h1 {
             font-size: 3.0em;
@@ -337,7 +337,7 @@ article {
 }
 
 body > footer {
-    @include box-shadow(rgba($color-grey2, 0.5) 0 0 5px);
+    //@include box-shadow(rgba($color-grey2, 0.5) 0 0 5px);
     position: relative;
     z-index: 300;
     section.top {
@@ -388,4 +388,16 @@ body > footer {
             }
         }
     }
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        section.main {
+            h1 {
+                float: none;
+                a {margin: 0 auto;}
+            }
+        }
+    }
+    .container {width: 100%;}
 }

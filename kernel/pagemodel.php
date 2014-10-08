@@ -44,8 +44,11 @@ class PageModel {
             $key = explode ('.', $this->file);
             $this->key = $key[0];
         } else {
+            if (count ($page) < 2) {
+                throw new Exception ("Erreur avec la page choisie.");
+            }
             if ($page[1] !== self::PAGE_FORMAT) {
-                throw new Exception ("Le format '$page[1]' n'est pas autorisé.");
+                throw new Exception ("Le format '{$page[1]}' n'est pas autorisé.");
             }
             $this->is_home = false;
             $page[0] = substr ($page[0], 1, strlen ($page[0]) - 1);
@@ -56,7 +59,7 @@ class PageModel {
         $this->path = '.' . DS . 'pages' . DS . $this->file;
         
         if (!file_exists ($this->path)) {
-            throw new Exception ("La page '$this->path' n'existe pas.");
+            throw new Exception ("La page '{$this->path}' n'existe pas.");
         }
         
         // Mise en cache.
